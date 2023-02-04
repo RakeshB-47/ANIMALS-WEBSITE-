@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Animals</title>
+    <style type="text/css">
+    body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    }
+    
+    header {
+    background-color: lightblue;
+    padding: 20px;
+    text-align: center;
+    }
+    
+    nav {
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    }
+    
+    nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    }
+    
+    nav a {
+    padding: 10px 20px;
+    text-decoration: none;
+    color: black;
+    }
+    
+    main {
+    padding: 20px;
+    }
+    
+    section {
+    margin-bottom: 20px;
+    }
+    
+    footer {
+    background-color: lightgray;
+    padding: 10px;
+    text-align: center;
+    }
+    .video {
+    background-color: lightgray;
+    margin-top:10px;
+    margin-bottom:19px;
+    line-height:30px;
+    display:float;
+    text-decoration:underline;
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-weight:bold;
+    font-size:20px;
+    padding:30px;
+    }
+    .button{
+    background-color:skyblue;
+    padding:15px;
+    margin-bottom:50px;
+    margin-top:30px;
+    cursor: pointer;
+    border: 2px solid darkgreen;;
+    font-weight: bold;
+    border-radius: 20px;
+    color: red;
+    box-shadow: 5px 12px 16px 5px rgba(0,0,0,0.4);
+    opacity:1;
+    width:200px;
+    height:5px;
+    padding:50px;
+    text-align: center;
+    display: inline- block;
+    }
+    .button span {
+    cursor: pointer;
+     display: inline-block;
+     position: relative;
+    transition: 0.5s;
+    }
+    .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.9s;
+    }
+    
+    .button:hover span {
+    padding-right: 25px;
+    }
+    
+    .button:hover span:after {
+    opacity: 1;
+    right: 0;
+    }
+    .button:active {
+    background-color: black;
+    box-shadow: 0 5px #666;
+    transform: translateY(5rpx);
+    }
+    </style>
+    
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <header>
+      <h1>Welcome to the Animals Website</h1>
+      <center><p class="video"> ANIMALS ,BIRDS,REPLTILES&hearts;</p></center>
+      <button class="button" style="vertical-align:middle"><a href="#"><span>CLICK ME</span> </a></button>
+    </header>
+    <nav>
+      <ol type=1>
+        <li><a href="#mammals">Mammals</a></li>
+        <li><a href="#birds">Birds</a></li>
+        <li><a href="#reptiles">Reptiles</a></li>
+      </ol>
+    </nav>
+    <main>
+      <section id="mammals">
+        <h2>Mammals </h2>
+        <p>Mammals are a class of vertebrate animals characterized by the presence of mammary glands which in females produce milk for feeding (nursing) their young, a neocortex (a region of the brain), fur or hair, and three middle ear bones.</p>
+      </section>
+      <section id="birds">
+        <h2>Birds</h2>
+        <p>Birds are a group of warm-blooded vertebrates constituting the class Aves, characterized by feathers, toothless beaked jaws, the laying of hard-shelled eggs, a high metabolic rate, a four-chambered heart, and a strong yet lightweight skeleton.</p>
+      </section>
+      <section id="reptiles">
+        <h2>Reptiles</h2>
+        <p>Reptiles are cold-blooded vertebrates of the class Reptilia, characterized by scales, the laying of leathery eggs, and typically a bony skeleton. They include snakes, lizards, turtles, and crocodilians.</p>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2023 Animals Website</p>
+    </footer>
+    <button onclick="history.back"> <a href="home page.html"/storage/emulated/0/home page.html>BACK PAGE </button>
+  </body>
+</html>
